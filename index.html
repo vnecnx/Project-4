@@ -20,23 +20,59 @@
         </a></div>
         
         <nav>
-          <a href="" class="tg_buttonnav">Projects/Work</a>
-          <a href="" class="tg_buttonnav">About</a>
-          <a href="" class="tg_buttonnav">Contact</a>
+          <a href="./projects.html" class="tg_buttonnav hvr-fade">Projects/Work</a>
+          <a href="./about.html" class="tg_buttonnav hvr-fade">About</a>
+          <a href="./contact.html" class="tg_buttonnav hvr-fade">Contact</a>
         </nav>
       </div>
     </header>
 
-    <div class="home_hero"></div>
+    <div class="default_hero"></div>
 
     <main>
       <h1 class="home_intro">Hi there! I'm <a target="_blank" href="https://www.linkedin.com/in/ernest-fowler/" class="home_intro link">Ernest</a>.</h1>
       <p class="home_introdescription">I’m a <a target="_blank" href="https://www.nngroup.com/articles/definition-user-experience/" class="home_introdescription link">UX Designer</a> based in Baton Rouge aimed at bringing your ideas to life through aesthetically appealing, <a target="_blank" href="https://www.nngroup.com/articles/inclusive-design/#:~:text=Summary%3A%20Inclusive%20design%20describes%20methodologies,language%2C%20race%2C%20and%20more." class="home_introdescription link">user-inclusive</a> products. </p>
-      <p class="home_introdescription">Check out some of <a href="" class="link home_introdescription">my work</a>!</p>
+      <p class="home_introdescription">Check out some of <a href="./projects.html" class="link home_introdescription">my work</a>!</p>
+          
+      <section class="contactform">
+        <div class="contactform-box">
+          <p class="tg_subheader2 contactform-title">Lets get in touch!</p>
+          <form action="./form-thank-you.html" method="post">
+            <div class="contact">
+              <div class="contactform-name">
+                <div class="contactform-input-box">
+                  <label for="first-name">First name</label>
+                  <input class="contactform-input" type="text" id="first-name" required>
+                </div>
+                <div class="contactform-input-box">
+                  <label for="last-name">Last name</label>
+                  <input class="contactform-input" type="text" id="last-name" required>
+                </div>
+              </div>
+            </div>
+  
+            <div class="contactform-input-box">
+              <label for="email">Email</label>
+              <input class="contactform-input" type="email" id="email" required>
+            </div>
+  
+            <div class="contactform-input-box"><label for="message">Message</label>
+              <textarea class="contactform-input" name="message" id="message" rows="3" cols="20"></textarea>
+            </div>
+  
+            <div class="contactform-buttons">
+              <input class="tg_buttonnav" type="reset" value="Clear">
+              <button class="tg_buttonnav" type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+      </section>
+      
     </main>
 
     <footer>
       <ul>
+        <li class="tg_subheader2 footer-title">Links</li>
         <li><a href="">LinkedIn</a></li>
         <li><a href="">Resume</a></li>
       </ul>
