@@ -300,6 +300,11 @@ footer ul li a:hover {
     padding: 4px;
 }
 
+.contactform-requiredinfo {
+    font-style: italic;
+    font-size: 12px;
+}
+
 .contactform-buttons {
     margin-top: 16px;
     display: flex;
