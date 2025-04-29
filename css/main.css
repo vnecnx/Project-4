@@ -489,10 +489,6 @@ footer ul li a:hover {
     gap: 8px;
 }
 
-.project_item-details-description {
-
-}
-
 .project_item-details-tag {
     padding: 4px;
     line-height: normal;
@@ -502,6 +498,7 @@ footer ul li a:hover {
     margin: 0;
     width: fit-content;
     font-size: 12px;
+    font-weight: 500;
 }
 
 @media (max-width: 975px) {
@@ -582,6 +579,13 @@ footer ul li a:hover {
     padding: 0;
 }
 
+.contact_listitem {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+    height: fit-content;
+}
+
 .contact_listitem li {
     list-style: none;
     box-sizing: content-box;
@@ -589,11 +593,8 @@ footer ul li a:hover {
     margin-top: 0;
 }
 
-.contact_listitem {
-    display: flex;
-    gap: 8px;
-    margin-bottom: 16px;
-    height: fit-content;
+.contact_listitem li a {
+    font-weight: 400;
 }
 
 .contact_listicon {
@@ -640,6 +641,10 @@ footer ul li a:hover {
 
 .project-individual_infobox-intro p a {
     color: var(--bodytext);
+}
+
+.project-individual_link {
+    font-weight: 400;
 }
 
 @media (max-width:768px) {
