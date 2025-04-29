@@ -454,7 +454,7 @@ footer ul li a:hover {
 }
 
 .contactform-buttons button:hover {
-    background-color: var(--secondary-dark);
+    background-color: #132f56;
 }
 
 
@@ -667,6 +667,17 @@ footer ul li a:hover {
 
 .helio_img-beforeafter img {
     width: 80%;
+}
+
+.helio_img-final {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.helio_img-final img {
+    height: auto;
+    width: 100%;
 }
 
 
