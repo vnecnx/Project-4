@@ -1,5 +1,14 @@
 // SPOTIFY CURRENTLY PLAYING
 
+const hamMenu = document.querySelector('.ham-menu');
+const offScreenMenu = document.querySelector('.header_offscreen')
+
+hamMenu.addEventListener('click', () => {
+    hamMenu.classList.toggle('active');
+    offScreenMenu.classList.toggle('active');
+})
+
+
 const lastfmAPI = process.env.LASTFM_API;
 
 $(document).ready(function() {

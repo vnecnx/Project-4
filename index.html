@@ -16,16 +16,33 @@
   <body>
     <header>
       <div class="headerbox">
-        <div class="headerlogo"><a href="./index.html">
-          <img src="./img/EF.svg" alt="">
-        </a></div>
+        <div class="headerlogo">
+          <a href="./index.html">
+            <img src="./img/EF.svg" alt="">
+          </a>
+        </div>
         
-        <nav>
+        <nav class="header_desktop">
           <a href="./projects.html" class="tg_buttonnav hvr-fade">Projects/Work</a>
           <a href="./about.html" class="tg_buttonnav hvr-fade">About</a>
           <a href="./contact.html" class="tg_buttonnav hvr-fade">Contact</a>
         </nav>
+        <nav class="ham-menu-nav">
+          <div class="ham-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </nav>
       </div>
+      
+      <div class="header_offscreen">
+        <ul>
+          <li><a href="./projects.html" class="tg_buttonnav">Projects/Work</a></li>
+          <li><a href="./about.html" class="tg_buttonnav">About</a></li>
+          <li><a href="./contact.html" class="tg_buttonnav">Contact</a></li>
+        </ul>
+      </div>  
     </header>
 
     <div class="default_hero"></div>

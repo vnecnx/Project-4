@@ -16,30 +16,57 @@
   <body>
     <header>
       <div class="headerbox">
-        <div class="headerlogo"><a href="./index.html">
-          <img src="./img/EF.svg" alt="">
-        </a></div>
+        <div class="headerlogo">
+          <a href="./index.html">
+            <img src="./img/EF.svg" alt="">
+          </a>
+        </div>
         
-        <nav>
+        <nav class="header_desktop">
           <a href="./projects.html" class="tg_buttonnav hvr-fade">Projects/Work</a>
           <a href="./about.html" class="tg_buttonnav hvr-fade">About</a>
           <a href="./contact.html" class="tg_buttonnav hvr-fade">Contact</a>
         </nav>
+        <nav class="ham-menu-nav">
+          <div class="ham-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </nav>
       </div>
+      
+      <div class="header_offscreen">
+        <ul>
+          <li><a href="./projects.html" class="tg_buttonnav">Projects/Work</a></li>
+          <li><a href="./about.html" class="tg_buttonnav">About</a></li>
+          <li><a href="./contact.html" class="tg_buttonnav">Contact</a></li>
+        </ul>
+      </div>  
     </header>
 
     <div class="default_hero"></div>
 
     <main>
         <h1 class="default_title">Let's Chat!</h1>
-        
-        <span class="fa-solid fa-user"></span>
-        
+              
         <ul class="contact_list">
-            <li><p class="tg_buttonnav">Email</p><a class="link" href="mailto:ernestkfowler@gmail.com">ernestkfowler@gmail.com</a></li>
-            <li><p class="tg_buttonnav">Phone</p><a class="link" href="tel:+12257269303">+1(225)726-9303</a></li>
-            <li><p class="tg_buttonnav">LinkedIn</p><a class="link" href="https://www.linkedin.com/in/ernest-fowler/">https://www.linkedin.com/in/ernest-fowler/</a></li>
-            <li><p class="tg_buttonnav">Resume</p><a class="link" href="https://drive.google.com/file/d/18RVSJ0Zf7QRnlwv5SwGd24ATdOYptBs2/view?usp=sharing">drive.google.com</a></li>
+            <div class="contact_listitem">
+                <img class="contact_listicon" src="./img/envelope-solid.svg" alt="">
+                <li><p class="tg_buttonnav">Email</p><a class="link" href="mailto:ernestkfowler@gmail.com">ernestkfowler@gmail.com</a></li>
+            </div>
+            <div class="contact_listitem">
+                <img class="contact_listicon" src="./img/phone-solid.svg" alt="">
+                <li><p class="tg_buttonnav">Phone</p><a class="link" href="tel:+12257269303">+1(225)726-9303</a></li>
+            </div>
+            <div class="contact_listitem">
+                <img class="contact_listicon" src="./img/linkedin-brands.svg" alt="">
+                <li><p class="tg_buttonnav">LinkedIn</p><a class="link" href="https://www.linkedin.com/in/ernest-fowler/">https://www.linkedin.com/in/ernest-fowler/</a></li>
+            </div>
+            <div class="contact_listitem">
+                <img class="contact_listicon" src="./img/file-solid.svg" alt="">
+                <li><p class="tg_buttonnav">Resume</p><a class="link" href="https://drive.google.com/file/d/18RVSJ0Zf7QRnlwv5SwGd24ATdOYptBs2/view?usp=sharing">drive.google.com</a></li>
+            </div>
         </ul>
         <div class="contactform-box">
             <p class="tg_subheader2 contactform-title">Send me a message!</p>

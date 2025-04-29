@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ernest Fowler</title>
+    <meta name="description" content="A portfolio site for Ernest Fowler">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="https://fonts.cdnfonts.com/css/satoshi" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  </head>
+
+  <body>
+    <header>
+        <div class="headerbox">
+          <div class="headerlogo">
+            <a href="./index.html">
+              <img src="./img/EF.svg" alt="">
+            </a>
+          </div>
+          
+          <nav class="header_desktop">
+            <a href="./projects.html" class="tg_buttonnav hvr-fade">Projects/Work</a>
+            <a href="./about.html" class="tg_buttonnav hvr-fade">About</a>
+            <a href="./contact.html" class="tg_buttonnav hvr-fade">Contact</a>
+          </nav>
+          <nav class="ham-menu-nav">
+            <div class="ham-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </nav>
+        </div>
+        
+        <div class="header_offscreen">
+          <ul>
+            <li><a href="./projects.html" class="tg_buttonnav">Projects/Work</a></li>
+            <li><a href="./about.html" class="tg_buttonnav">About</a></li>
+            <li><a href="./contact.html" class="tg_buttonnav">Contact</a></li>
+          </ul>
+        </div>  
+      </header>
+
+    <div class="project-individual_hero helio_hero"></div>
+
+    <main>
+        <h1 class="default_title">Helio: Chat Tabs</h1>
+        
+        <div class="project-individual_infobox project-individual_infobox-intro">
+            <div class="helio_infobox_1_item"><p class="tg_subheader2">Role</p><p>User Experience & Interface Designer</p></div>
+            <div class="helio_infobox_1_item"><p class="tg_subheader2">Date</p><p>Summer 2024</p></div>
+            <div class="helio_infobox_1_item"><p class="tg_subheader2">Tools</p><p>Figma</p></div>
+            <div class="helio_infobox_1_item"><p class="tg_subheader2">Results</p><p><a href="https://www.figma.com/design/znCcaPIpje4CnK8XYqKn8o/Chat-Tabs?node-id=0-1&t=zvuYaeNhyimxtIdG-1">Figma File</a></p></div>
+        </div>
+        
+        <section class="project-individual_section">
+            <h2>Project Overview</h2>
+            <br>
+            <p class="tg_subheader2">What is Helio?</p>
+            <p>Helio is a social media app designed for college students. We prioritize the privacy and anonymity of users, adding measures and features that give users the freedom to engage with or without profile visibility.</p>
+            <br>
+            <p class="tg_subheader2">What is Helio’s Chat Tab Feature?</p>
+            <p>The chat tab is a core feature of Helio that allows users to view all of their conversations and notifications through a single page. Two chat tabs exist, one for public activity and the other for anonymous (aka “incognito”) activity. </p>
+        </section>
+
+        <section class="project-individual_section">
+            <h2>Process</h2>
+            <br>
+            <h3>1. User Problem</h3>
+            <hr>
+            <p>Users felt confusion about how to navigate and use chat tabs, as it is a feature that combines two familiar features (post notifications and messages) into one.</p>
+            <br>
+            <h3>2. Project Goal</h3>
+            <hr>
+            <p>My aim with this project was to redesign the chat tab in a digestible way that allows users to access conversations and notifications with ease, while simultaneously maintaining Helio’s brand and the original vision of the chat tab.</p>
+            <br>
+            <h3>3. Design Ideation</h3>
+            <hr>
+            <p>Many of my ideas came out through quick paper sketches, and through casual conversations with team members about the design, where we built off of each other’s ideas. Although there were many ideas, we narrowed our options down to the more successful ideas, which I then iterated and improved upon several times.</p>
+            <br>
+            <h3>4. Prototype</h3>
+            <hr>
+            <details>
+                <summary class="tg_subheader2">Chat Tab Conversation Interface Changes</summary>
+                <div class="details">
+                    <p>The original design attempted to help users visually categorize the different conversation types by using a small icon beside the profile photo, however, the icons were too small to notice. It was also not very obvious which conversations had new activity.</p>
+                    <br>
+                    <div class="project-individual_infobox helio_infobox_2">
+                        <p class="tg_subheader2">Changes Made in New Design</p>
+                        <ul>
+                            <li>“Conversation type” icons
+                                <ul>
+                                    <li>Moved to the left to separate them from the profile image</li>
+                                    <li>Icons enlarged for better visibility</li>
+                                    <li>Lit up blue when indicating new activity</li>
+                                </ul>
+                            </li>
+                            <li>New conversations were made bold to increase visual prominence</li>
+                            <li>Each conversation was made a uniform height for consistency</li>
+                        </ul>
+                    </div>
+                </div>
+            </details>
+            <details>
+                <summary class="tg_subheader2">Chat Tab Filter Feature</summary>
+                <div class="details">
+                    <p>Our team wanted an efficient way for users to filter the different types of conversations, so I proposed the idea of a conversation type selector, where users can simply tap once to navigate easily between different types of conversations.</p>
+                    <br>
+                    <p>We originally entertained a dropdown filter feature, but since it required two taps, it would become another annoyance for users.</p>
+                    <br>
+                    <p>Instead, I proposed the idea of bubble selectors to reduce the feature’s use to a single tap. This idea has a more appealing appearance, and allows users to see how many new messages they have in each category.</p>
+                    <br>
+                </div>
+            </details>
+        </section>
+
+        <section class="project-individual_section">
+            <h2>Conclusion</h2>
+            <br>
+            <p>The main pain point Helio users had with the previous design was that it was difficult to distinguish between different activity/conversation types, as well as read and unread activity. It was not obvious what information each row of activity held, which became frustrating for people who wanted to be able to find what they want simply by skimming the page. </p>
+            <br>
+            <p>I was able to address these users’ issues by utilizing visual hierarchy to make important information stand out, enabling Helio users to find specific conversations almost immediately. The bubble selectors also allow people to sort or find the type of conversation they want with a simple tap.</p>
+        </section>
+
+        <section class="project-individual_section">
+            <h2>Takeaways</h2>
+            <br>
+            <p class="tg_subheader2">What I learned</p>
+            <hr>
+            <p>I am grateful to have had the opportunity to work in a collaborative team setting for design, as my previous experiences have been solely on my own. I learned to work with stakeholders and team members, which was valuable for receiving and implementing feedback. </p>
+            <br>
+            <p>As I designed with Helio, I was able to create and familiarize myself with their design system and guidelines, as well as get accustomed with the iterative aspect of design work. </p>
+            <br>
+            <p>Although I admit it was a learning curve, I am happy to have had these learning experiences.</p>
+            <br>
+            <br>
+            <p class="tg_subheader2">Next Steps</p>
+            <hr>
+            <p>Had not there been any resource limitations, I would have liked to do more user research and testing, to get a more accurate user perspective and to ensure that the design met the needs of our users effectively.</p>
+        </section>
+
+        <section class="project-individual_section">
+            <h2>Final Product</h2>
+            <hr>
+        </section>
+
+        <hr>
+        <p>I feel proud of my work done at Helio, however, I am always seeking new opportunities to grow and learn. If you have questions or feedback, feel free to <a href="./contact.html" class="link">contact me!</a> :)</p>
+    </main>
+
+    <footer>
+      <ul>
+        <li class="tg_subheader2 footer-title">Links</li>
+        <li><a href="">LinkedIn</a></li>
+        <li><a href="">Resume</a></li>
+      </ul>
+    </footer>
+    
+    <script src="./js/main.js" async defer></script>
+  </body>
+</html>

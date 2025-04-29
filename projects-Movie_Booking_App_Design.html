@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ernest Fowler</title>
+    <meta name="description" content="A portfolio site for Ernest Fowler">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="https://fonts.cdnfonts.com/css/satoshi" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  </head>
+
+  <body>
+    <header>
+        <div class="headerbox">
+          <div class="headerlogo">
+            <a href="./index.html">
+              <img src="./img/EF.svg" alt="">
+            </a>
+          </div>
+          
+          <nav class="header_desktop">
+            <a href="./projects.html" class="tg_buttonnav hvr-fade">Projects/Work</a>
+            <a href="./about.html" class="tg_buttonnav hvr-fade">About</a>
+            <a href="./contact.html" class="tg_buttonnav hvr-fade">Contact</a>
+          </nav>
+          <nav class="ham-menu-nav">
+            <div class="ham-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </nav>
+        </div>
+        
+        <div class="header_offscreen">
+          <ul>
+            <li><a href="./projects.html" class="tg_buttonnav">Projects/Work</a></li>
+            <li><a href="./about.html" class="tg_buttonnav">About</a></li>
+            <li><a href="./contact.html" class="tg_buttonnav">Contact</a></li>
+          </ul>
+        </div>  
+      </header>
+
+    <div class="project-individual_hero movie_hero"></div>
+
+    <main>
+        <h1 class="default_title">Movie Booking Mobile App</h1>
+        
+        <div class="project-individual_infobox project-individual_infobox-intro">
+            <div class="helio_infobox_1_item"><p class="tg_subheader2">Role</p><p>User Experience & Interface Designer</p></div>
+            <div class="helio_infobox_1_item"><p class="tg_subheader2">Date</p><p>Summer 2023</p></div>
+            <div class="helio_infobox_1_item"><p class="tg_subheader2">Tools</p><p>Figma</p></div>
+            <div class="helio_infobox_1_item"><p class="tg_subheader2">Results</p><p><a href="https://www.figma.com/proto/IB5dqkMa8ylFeskzH4gLTj/Mockup-Activity-for-Google-UX?type=design&node-id=7-564&scaling=scale-down&page-id=0%3A1&starting-point-node-id=7%3A564">Figma File</a></p></div>
+        </div>
+        
+        <!-- May need to add date for project later on -->
+
+        <section class="project-individual_section">
+            <p>
+                This design was a hands-on course project (taught through Google Coursera’s UX course) meant to walk students through the entire UX product development process, as well as teaching the basics of Figma for wireframing and prototyping. I took on many roles during this project, such as the researching, planning, designing, and testing. As always, there is room for improvement, but I am proud of how the design turned out for a first project. Read on to learn more about my process! :)
+            </p>
+        </section>
+
+        <section class="project-individual_section">
+            <h2>Project Overview</h2>
+            <hr>
+            <p class="tg_subheader2">The Product</p>
+            <p>This app is designed for customers of movie theaters, meant to be a tool to allow customers to buy movie tickets online.</p>
+            <br>
+            <p class="tg_subheader2">The Problem</p>
+            <p>Users need a platform to quickly and remotely purchase movie tickets.</p>
+            <br>
+            <p class="tg_subheader2">The Goal</p>
+            <p>Creating a straightforward and accessible user path that accomplishes the main task of booking movie tickets, while also creating a clean UI design.</p>
+        </section>
+
+        <section class="project-individual_section">
+            <div class="project-individual_infobox">
+                <p class="tg_subheader2">My Responsibilities</p>
+                <ul>
+                    <li>Creating wireframes and prototypes</li>
+                    <li>Interviewing and testing</li>
+                    <li>Analyzing research findings</li>
+                    <li>Implementing changes and finalizing the design</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="project-individual_section">
+            <h2>1. Understanding the User (Empathize)</h2>
+            <br>
+            <p class="tg_subheader2">Summary</p>
+            <p>
+                To fully grasp the situation of the user, I conducted interviews on movie booking app users. The result was a combination of insights which I used to create two main hypothetical personas to understand the perspective of the user. The first was Troy McFarlane, a disabled user that enjoys saving on movies but is frustrated at not being able to have an accessible, convenient movie experience. As well as Kara Zimmerman, a sentimental movie ticket collector that is seeking a convenient movie booking and discovery app. 
+            </p>
+            <br>
+            <br>
+            <p class="tg_subheader2">User Journey Mapping</p>
+            <hr>
+            <p>
+                After creating the user personas, I made a user journey map for each persona, a page taking the perspective of the persona and trying to understand what the user is thinking, feeling, and wanting from the experience. This is very useful later on for creating a design framework adapted to the user’s needs.
+            </p>
+        </section>
+
+        <section class="project-individual_section">
+            <h2>2. Defining the Problem (Define)</h2>
+            <br>
+            <p>While the user personas highlighted many different problems to solve, I had realized that some issues were needs, while others were wants. I needed to guide my process to solve the highest priority problems first. </p>
+            <br>
+            <p>Thus, I decided to make a ranked list of problems in order of priority to and chose a selection of problems to handle, discarding low-priority issues.</p>
+            <br>
+            <div class="project-individual_infobox">
+                <p class="tg_subheader2">Problems</p>
+                <ol>
+                    <li>Linear booking process</li>
+                    <li>Discover new movies</li>
+                    <li>Readable seating map with highlighted handicap seating</li>
+                    <li class="li-strikethrough">Showing time reminders</li>
+                    <li class="li-strikethrough">Snack purchasing through app</li>
+                    <li class="li-strikethrough">Discounts/Coupons/Rewards System</li>
+                </ol>
+            </div>
+            <p>Defining the problems set the direction and focus of this study, that being to create a smooth-sailing linear movie booking process while also giving users the ability to discover new movies and find appropriate seating regardless of disability.</p>
+        </section>
+
+        <section class="project-individual_section">
+            <h2>3. Initial Design (Ideate)</h2>
+            <br>
+            <p>Before fully committing to a design, I needed to decide how I wanted to solve my 3 main issues. To come up with solution ideas, I had to come up with a high quantity of possible solutions, then choose the solutions that work best for the situation. The best way to find a lot of visual solutions quickly was to create paper sketches of my design.</p>
+            <br>
+            <p class="tg_subheader2">Paper Wireframes</p>
+            <p>In the making of the home page wireframe, I wanted to make a “popular movies” panel to be upfront and very obvious. I also added a search bar in many of the wireframes I came up with, so that users can freely search for the movie they are looking for.</p>
+            <br>
+            <p>Though paper wireframes are great for ideating solutions, it is limited to only visual solutions, so it was time to move on to the next part of the ideation process, where I chose the best aspects of different paper sketches and combined it into Figma. Through Figma, I am able to move from visual solutions to finding interactive solutions, where I can determine  the usability of each solution.</p>
+            <br>
+            <p class="tg_subheader2">Wireframes - Home Page</p>
+            <p>I decided to add the “popular” movie panel since it seemed to be a very prevalent feature in my paper wireframes. I also added extra showings with buttons to sort through and filter movies. A bottom panel with icons was used to navigate through different sections of the app with a click of a button.</p>
+            <br>
+            <p class="tg_subheader2">Wireframes - Movie Details</p>
+            <p>This wireframe page was meant to serve multiple purposes at once; a page for movie details, and choosing your theater location.</p>
+        </section>
+
+        <section class="project-individual_section">
+            <h2>4. Low-fidelity Prototype (Prototype)</h2>
+            <br>
+            <p class="tg_subheader2">Low-fidelity Prototype</p>
+            <br>
+            <a class="link" href="https://www.figma.com/file/G0v9RdsRScRv6hXYYhK21K/MovieBookingPrototypev2?type=design&node-id=0%3A1&mode=design&t=LbW60kPROZOAZHjO-1">View lo-fi prototype here</a>
+            <br>
+            <br>
+            <p>
+                One thing I’ve learned is that nothing will be perfect the first time. I expect my first design or two to fail. But from those failures, there are insights to be found. Thus, it would be impractical to consume my time polishing the design with fancy aesthetics and branding but rather, I should build a “low-fidelity” design prototype that prioritizes usability testing. 
+            </p>
+            <p>
+                In my low-fidelity prototype, I added many touchups to my wireframes that make the design visually legible and interactive with working buttons, connecting all of my pages together in a fluid, linear user path. It is a functional design, ready to be tested.
+            </p>
+        </section>
+        
+        <section class="project-individual_section">
+            <h2>5. Low-fidelity Prototype Usability Test Findings (Test)</h2>
+            <br>
+            <p>
+                After creating a working lo-fi prototype, the design was finally ready to be tested by real people. I gave participants the task of testing the main function of the app: booking a movie. Alongside the testing, I gave users an opportunity to give their honest, personal feedback on the design.
+            </p>
+            <br>
+            <p>
+                These are the main things I found through this usability test:
+            </p>
+            <br>
+            <div class="project-individual_infobox">
+                <p class="tg_subheader2">Insights</p>
+                <ol>
+                    <li>There is a lack of confirmation of user actions. Users were unsure if they had completed the action they were trying to complete, since there was no sense of action confirmation in the design.</li>
+                    <li>The movie selection, seating & confirmation page seemed standard and intuitive. I believe many users found it easy in this aspect since the design structure was linear which is very simple to understand, and many users are used to standard UI designs.</li>
+                    <li>The Theater/location selection screen had too much information, and bad functionality. Users expressed that it felt visually cluttering and did not function the way that they had anticipated.</li>
+                </ol>
+            </div>
+            <p>As I had expected, there were issues with the first low-fidelity prototype. However, the usability testing phase gave me useful insights that would guide me towards making a better design. Although this meant that I had to recreate my prototype and test it again, I was given better defined guidelines for my design and I was better able to create with the user in mind.</p>
+        </section>
+
+        <section class="project-individual_section">
+            <h2>4. Refining the Design (Prototype, Pt 2.)</h2>
+            <br>
+            <p class="tg_subheader2">Mockups - Interaction Feedback </p>
+            <p>An insight gathered from the usability test was that users had no sense of feedback for their actions. Interactions such as tapping on a button did what it was supposed to, but did not provide any sense of reassurance that the action was completed, which ended up confusing or dissatisfying the user. To combat these issues, I added things like animations to pages, and state changes to page elements to help indicate to users when they have successfully completed an action.</p>
+            <br>
+            <p class="tg_subheader2">Mockups - Home Page</p>
+            <p>In our usability testing, I had many users saying that there was too much clutter on the pages. With this information in mind, I created a second prototype of the home page. Using the previous prototype as blueprint for our next prototype, I moved from 3 movie box rows to 2, and got rid of the “Popular” text to create a simpler design.</p>
+            <br>
+            <p class="tg_subheader2">Mockups - Time and Location Selection</p>
+            <p>In my initial lo-fi prototype, I shoved as much info as possible into one page, including movie description, location, and times (which didn’t even give the option to choose a date).</p>
+            <br>
+            <p>However, in my second prototype, I…</p>
+            <ul>
+                <li>Made the original screen into 3 separate pages</li>
+                <li>Simplified the design</li>
+                <li>Added an interactive calendar</li>
+                <li>Added brand colors and images</li>
+                <li>Added navigation buttons</li>
+            </ul>
+            <br>
+            <p>This is what these changes to the screen look like in the mockup:</p>
+            <br>
+            <p class="tg_subheader2">Mockups - Other Pages</p>
+        </section>
+
+        <section class="project-individual_section">
+            <h2>5. Usability Test Findings (Test, Pt. 2)</h2>
+            <br>
+            <p>After listening to the users in the previous study and creating a design, I decided to have users test the mockup before making a high-fidelity design. Here is what I found through this new study:</p>
+            <ol>
+                <li>Users found the new UI theme very pleasant and clean compared to the previous prototype.</li>
+                <li>The user path is very straightforward and simple.</li>
+            </ol>
+        </section>
+
+        <section class="project-individual_section">
+            <h2>6. High-Fidelity Prototype (Implement)</h2>
+            <br>
+            <a class="link" href="https://www.figma.com/proto/IB5dqkMa8ylFeskzH4gLTj/Mockup-Activity-for-Google-UX?type=design&node-id=7-564&scaling=scale-down&page-id=0%3A1&starting-point-node-id=7%3A564">View hi-fi prototype here</a>
+            <br>
+            <br>
+            <p>
+                Since I  had finally found a working design, I decided to move on to creating a high-fidelity prototype building upon the wireframes, mockups and lo-fi prototype as a foundation to create a polished product that will look more like what would be released to the public.
+            </p>
+            <br>
+            <p>When creating these high-fidelity products, there were some considerations in my app I took into account to improve its UI and accessibility.</p>
+            <ol>
+                <li>Elements within my design needed to be resized to be more legible or less visually cluttered, so I enlarged elements or made room for expansion.</li>
+                <li>Certain elements and texts were low contrast, so changes were made to make them more visible.</li>
+            </ol>
+        </section>
+
+        <section class="project-individual_section">
+            <h2>Going Forward</h2>
+            <br>
+            <p class="tg_subheader2">Impact</p>
+            <p>In the second user study, there was a significant increase in satisfaction with the design from study participants compared to the first user study, especially regarding the user flow, UI, and speed and ease of task completion.</p>
+            <br>
+            <p class="tg_subheader2">What I Learned</p>
+            <p>As this was my very first project, I learned the basics of Figma and a few useful tools within it. I also received feedback that helped me improve on UI sizing, coloring, placement, and contrast, using Gestalt principles to make my design as visually accessible as possible. I also learned the importance of UX research. I downplayed its value at first, but I did not understand until later on how valuable it was to shaping a user-focused design.</p>
+            <br>
+            <div class="project-individual_infobox">
+                <p class="tg_subheader2">Next Steps</p>
+                <ol>
+                    <li>I hope to work on some pages that were hinted at in my design, which I did not complete as it was not part of the main user flow. These include: the watch list page, search feature, profile page, and menu screen.</li>
+                    <li>Improving upon the “review order” page, since the payment section was incomplete. I may even need to create an entirely new page dedicated to payments. Also, while I did have a seating selection system, I did not add any seat identification features, so in the checkout process, you were not able to see which seats you selected. </li>
+                </ol>
+            </div>
+        </section>
+
+        <hr>
+        <p>I really enjoyed making this first project, and am eager to learn and experience more. If you have questions or feedback, feel free to <a href="./contact.html" class="link">contact me!</a> :)</p>
+    </main>
+
+    <footer>
+      <ul>
+        <li class="tg_subheader2 footer-title">Links</li>
+        <li><a href="">LinkedIn</a></li>
+        <li><a href="">Resume</a></li>
+      </ul>
+    </footer>
+    
+    <script src="./js/main.js" async defer></script>
+  </body>
+</html>
