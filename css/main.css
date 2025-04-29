@@ -101,7 +101,7 @@ h3 {
     --secondary: #134074;
     --secondary-dark: #13315C;
     --secondary-dark-shadow: #13315c85;
-    --tertiary: #4d88db;
+    --tertiary: #3074D5;
 
     --main-padding_large-desktop_horizontal: 300px;
     --main-padding_large-desktop_vertical: 40px;
@@ -498,7 +498,7 @@ footer ul li a:hover {
     margin: 0;
     width: fit-content;
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 @media (max-width: 975px) {
@@ -643,10 +643,6 @@ footer ul li a:hover {
     color: var(--bodytext);
 }
 
-.project-individual_link {
-    font-weight: 400;
-}
-
 @media (max-width:768px) {
     .project-individual_infobox-intro {
         display: flex;
@@ -705,6 +701,7 @@ footer ul li a:hover {
 .link {
     color: var(--tertiary);
     text-decoration: none;
+    font-weight: 400;
 }
 
 .link:hover {
