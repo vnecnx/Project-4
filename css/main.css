@@ -111,12 +111,6 @@ h3 {
     --main-padding_mobile_vertical: 20px;
 }
 
-/* 
-Example use: 
-
-color: var(--primary-color); 
-*/
-
 
 
 
@@ -513,8 +507,6 @@ footer ul li a:hover {
     .projects_item-image {
         max-width: 100%;
     }
-
-
 }
 
 
@@ -526,7 +518,7 @@ footer ul li a:hover {
 .about_wrapper {
     display: flex;
     flex-direction: row-reverse;
-    gap: 80px;
+    justify-content: space-between;
 }
 
 .about_wrapper p {
@@ -601,7 +593,6 @@ footer ul li a:hover {
 .contact_listicon {
     max-width: 40px;
     height: 24px;
-
 }
 
 
@@ -718,6 +709,7 @@ footer ul li a:hover {
 
 
 /* FADE */
+
 .hvr-fade {
     display: inline-block;
     vertical-align: middle;
