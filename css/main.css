@@ -231,13 +231,13 @@ nav a {
     transform: translate(-50%, -50%) rotate(-45deg);
 }
 
-@media (min-width: 769px) and (max-width: 1279px) {
+@media (min-width: 840px) and (max-width: 1279px) {
     header {
         padding: 16px var(--main-padding_small-desktop_horizontal);
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 840px) {
     header {
         padding: 0;
     }
@@ -266,13 +266,13 @@ main {
     padding: var(--main-padding_large-desktop_vertical) var(--main-padding_large-desktop_horizontal);
 }     
 
-@media (min-width: 769px) and (max-width: 1279px) {
+@media (min-width: 840px) and (max-width: 1279px) {
     main {
         padding: var(--main-padding_small-desktop_vertical) var(--main-padding_small-desktop_horizontal);
     }
 }
 
-@media (max-width: 769px) {
+@media (max-width: 840px) {
     main {
         padding: var(--main-padding_mobile_vertical) var(--main-padding_mobile_horizontal);
     }
@@ -304,13 +304,13 @@ footer {
     margin-top: auto;
 }
 
-@media (min-width: 769px) and (max-width: 1279px) {
+@media (min-width: 840px) and (max-width: 1279px) {
     footer {
         padding: var(--main-padding_small-desktop_vertical) var(--main-padding_small-desktop_horizontal);
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 840px) {
     footer {
         padding: var(--main-padding_mobile_vertical) var(--main-padding_mobile_horizontal);
     }
@@ -464,7 +464,7 @@ footer ul li a:hover {
     gap: 16px;
     background-color: var(--background);
     text-decoration: none;
-    color: var(--bodytext);
+    color: var(--bodytext); 
 }
 
 .projects_item:hover {
@@ -482,6 +482,7 @@ footer ul li a:hover {
     display: flex;
     flex-direction: column;
     gap: 8px;
+    overflow: hidden;   
 }
 
 .project_item-details-tag {
@@ -496,6 +497,15 @@ footer ul li a:hover {
     font-weight: 700;
 }
 
+@media (max-width: 1090px) {
+    .projects_item-details-title, .project_item-details-description {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 100%;
+    }
+}
+
 @media (max-width: 975px) {
     .projects_item {
         flex-direction: column;
@@ -506,6 +516,10 @@ footer ul li a:hover {
     
     .projects_item-image {
         max-width: 100%;
+    }
+    
+    .projects_item-details-title, .project_item-details-description {
+        white-space: unset;
     }
 }
 
@@ -519,6 +533,7 @@ footer ul li a:hover {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
+    gap: 24px;
 }
 
 .about_wrapper p {
@@ -641,6 +656,8 @@ footer ul li a:hover {
         flex-direction: column;
     }
 }
+
+
 
 
 
